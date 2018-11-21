@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/AshleyByeUK/tictactoe-ruby.svg?branch=master)](https://travis-ci.org/AshleyByeUK/tictactoe-ruby-console)
-[![codecov](https://codecov.io/gh/AshleyByeUK/tictactoe-ruby/branch/master/graph/badge.svg)](https://codecov.io/gh/AshleyByeUK/tictactoe-ruby-console)
+[![Build Status](https://travis-ci.org/AshleyByeUK/tictactoe-ruby-console.svg?branch=master)](https://travis-ci.org/AshleyByeUK/tictactoe-ruby-console)
+[![codecov](https://codecov.io/gh/AshleyByeUK/tictactoe-ruby-console/branch/master/graph/badge.svg)](https://codecov.io/gh/AshleyByeUK/tictactoe-ruby-console)
 
 # tictactoe-ruby-console
 
