@@ -1,6 +1,6 @@
-require 'game/game'
-require 'game/game_engine'
-require 'game/player'
+require 'tictactoe/game'
+require 'tictactoe/game_engine'
+require 'tictactoe/player'
 
 module ConsoleClient
   class ConsoleClient
@@ -45,7 +45,7 @@ module ConsoleClient
     def play_game(board_size)
       player_one = configure_player(1, 'X', 'Player 1')
       player_two = configure_player(2, 'O', 'Player 2')
-      engine = Game::GameEngine.new(@ui, board_size)
+      engine = TicTacToe::GameEngine.new(@ui, board_size)
       engine.start(player_one, player_two)
     end
 
@@ -54,11 +54,11 @@ module ConsoleClient
       @io.display(@text_provider::PLAYER_TYPE + "\n: ")
       case get_validated_input(['1', '2', '3'], @text_provider::INVALID_SELECTION)
       when '1'
-        Game::Player.create(:human, token, name)
+        TicTacToe::Player.create(:human, token, name)
       when '2'
-        Game::Player.create(:easy, token, name)
+        TicTacToe::Player.create(:easy, token, name)
       when '3'
-        Game::Player.create(:hard, token, name)
+        TicTacToe::Player.create(:hard, token, name)
       end
     end
 

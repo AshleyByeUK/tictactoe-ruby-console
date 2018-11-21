@@ -59,7 +59,7 @@ module ConsoleClient
     end
 
     def format_message(game)
-      game.state == Game::Game::READY ? "" : "\n#{@text_provider::GOOD_MOVE}\n"
+      game.state == TicTacToe::Game::READY ? "" : "\n#{@text_provider::GOOD_MOVE}\n"
     end
   end
 end

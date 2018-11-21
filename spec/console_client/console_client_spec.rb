@@ -2,7 +2,6 @@ require 'console_client/console_client'
 require 'console_client/mock_game_ui'
 require 'console_client/mock_io'
 require 'console_client/text_provider'
-require 'game/game'
 
 module ConsoleClient
   HUMAN = '1'
